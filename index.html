@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #buttons {
+            height: 200px;
+        }
+        </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="buttons">
+        <button id="black">Black</button>
+        <button id="white">White</button>
+        <button id="red">Red</button>
+        <button id="blue">Blue</button>
+        <button id="orange">Orange</button>
+    </div>
+    <div id="unordered">
+        <h2>Random Number Generator</h2>
+        <p id="display">0</p>
+        <button id="numberGnrtr" onclick="generateNumber()">Generate</button>
+    </div>
+    <div id="rotate">
+        <p>Besiktas aski <span id="span">anlatilmaz</span></p>
+    </div>
+    <div class="container">
+        <div class="inner-container">
+            <p class="headers">HTML</p>
+            <p class="innertext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga provident assumenda expedita at accusantium beatae pariatur ab rerum sit quas.</p>
+        </div>
+        <div class="inner-container2"><p class="headers">CSS</p></div>
+        <div class="inner-container3"><p class="headers">JavaScript</p></div>
+    </div>
+<script>
+var count = 5;
+while (count <= 100) {
+    document.write(count + "<br />");
+    count += 5;
+}
+
+let myArray = ["item1", "item2", "item3", "item4"];
+
+for (let i = 0; i < myArray.length; i++) {
+
+document.write(myArray[i]);
+
+}
+</script>
+    <script src="app.js"></script>
+</body>
+</html>
